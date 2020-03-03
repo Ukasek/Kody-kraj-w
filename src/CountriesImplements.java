@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-public class CountriesInfo {
+public class CountriesImplements {
     public static void countryInfo(Map<String, Country> countries) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj kod kraju, o którym chcesz zobaczyć informacje: ");

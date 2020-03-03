@@ -5,8 +5,8 @@ public class TestClass {
     public static void main(String[] args) {
         String fileName = "countries.csv";
         try {
-            Map<String, Country> countries = CountriesInfo.mapReturn(fileName);
-            CountriesInfo.countryInfo(countries);
+            Map<String, Country> countries = CountriesImplements.mapReturn(fileName);
+            CountriesImplements.countryInfo(countries);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
